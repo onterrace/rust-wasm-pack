@@ -80,10 +80,10 @@ pub fn greet(name: &str) {
 **hello-wasm/src/Cargo.toml**    
 ```toml
 [package]
-name = "jirepos-hello-wasm"
+name = "hello-wasm"
 version = "0.1.0"
 edition = "2021"
-authors = ["Jirepos <jirepos@gmail.com>"]
+authors = ["repos <repos@gmail.com>"]
 
 # [lib] 섹션은 패키지를 cdylib 형식으로 빌드할 것이라고 알린다. 
 [lib]
